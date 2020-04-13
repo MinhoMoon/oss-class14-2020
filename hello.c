@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+int add(int a, int b)
+{
+	return a + b;
+}
+
 void swap(int* a, int* b)
 {
 	int temp = *a;
@@ -10,6 +15,9 @@ void swap(int* a, int* b)
 
 int main()
 {
-	printf("hello\nWorld!!!");
+	printf("hello World!!!\n");
+	
+	int a = 3, int b = 2;
+	printf("a+b = %d\n", add(a, b));
 	return 0;
 }
