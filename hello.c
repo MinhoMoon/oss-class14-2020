@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+int sub(int a, int b)
+{
+	return a + b;
+}
+
+// 
+// comment: subtract function
 int subtract(int a, int b)
 {
 	return (a - b);
